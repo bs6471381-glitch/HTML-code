@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -8,35 +8,83 @@
     </head>
     <body>
         <!--Header-->
-        <header>
-            <div class="logo">Gurucharan University</div>
-            <nav>
-                <ul>
-                <li><a href="#home">Home</a>|</li>
-            <li><a href="#about">About</a>|</li>
-            <li><a href="#courses">Courses</a>|</li>
-            <li><a href="#faculty">Faculty</a>|</li>
-            <li><a href="#gallery">Gallery</a>|</li>
+        <header id="navbar">
+
+    <a href="#home" class="logo">
+    🎓 Gurucharan University
+</a>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#faculty">Faculty</a></li>
+            <li><a href="#gallery">Gallery</a></li>
             <li><a href="#contact">Contact</a></li>
-            </ul>
-            </nav>
-            <button id="themeBtn">Dark Mode</button>
-        </header>
+        </ul>
+    </nav>
+
+    <div class="nav-buttons">
+        <button id="themeBtn">🌙</button>
+
+        <a href="#contact" class="apply-btn">
+            Apply Now
+        </a>
+    </div>
+</header>
         <!--Hero Section-->
         <section class="hero"id="home">
             <div class="slider">
-                <img src="GC university.jpg"class="slide active">
-                <img src="GC uni.jpg"class="slide">
-                <img src="GC college.jpg"class="slide">
+                <img src="GC university.jpg" alt="Gurucharan University Campus"class="slide active">
+                <img src="GC uni.jpg" alt="Gurucharan University Campus"class="slide">
+                <img src="GC college.jpg" alt="Gurucharan University College"class="slide">
             </div>
-            <div class="hero-content">
-                <h1>Welcome to Gurucharan University</h1>
-                <p>Empowering students for a better future</p>
-                <a href="#courses"class="btn">Explore Courses</a>
-            </div>
+          <div class="hero-content">
+
+    <h1>Shape Your Future at Gurucharan University</h1>
+
+    <p>
+        Excellence in Education, Innovation and Research.
+        Empowering tomorrow's leaders with world-class learning.
+    </p>
+
+    <div class="hero-buttons">
+
+        <a href="#courses" class="btn">
+            Explore Courses
+        </a>
+
+        <a href="#contact" class="btn-outline">
+            Apply Now
+        </a>
+
+    </div>
+    <div class="hero-stats">
+
+    <div class="hero-stat">
+        <h2 class="counter" data-target="25">0</h2>
+        <span>Years</span>
+    </div>
+
+    <div class="hero-stat">
+        <h2 class="counter" data-target="12000">0</h2>
+        <span>Students</span>
+    </div>
+
+    <div class="hero-stat">
+       <h2 class="counter" data-target="100">0</h2>
+        <span>Faculty</span>
+    </div>
+
+    <div class="hero-stat">
+       <h2 class="counter" data-target="95">0</h2>
+        <span>Placement</span>
+    </div>
+    </div>
+</div>  
         </section>
         <!--About-->
-        <section id="about"class="about">
+        <section id="about"class="about reveal">
             <h2>About Our College</h2>
             <div class="about-container">
             <div>
@@ -47,89 +95,468 @@
             <img src="GC college.jpg">
             </div>
         </section>
+        <section id="why-us" class="why-us reveal">
+
+    <h2>Why Choose Gurucharan University?</h2>
+
+    <p class="why-subtitle">
+        We provide world-class education with modern facilities,
+        experienced faculty and excellent career opportunities.
+    </p>
+
+    <div class="why-container">
+
+        <div class="why-card">
+
+            <div class="why-icon">🎓</div>
+
+            <h3>Expert Faculty</h3>
+
+            <p>
+                Learn from highly qualified professors with years of academic
+                and industry experience.
+            </p>
+
+        </div>
+
+        <div class="why-card">
+
+            <div class="why-icon">💼</div>
+
+            <h3>Placement Support</h3>
+
+            <p>
+                Dedicated placement cell connecting students with top
+                recruiters every year.
+            </p>
+
+        </div>
+
+        <div class="why-card">
+
+            <div class="why-icon">🏫</div>
+
+            <h3>Modern Campus</h3>
+
+            <p>
+                Smart classrooms, digital library and advanced laboratories.
+            </p>
+
+        </div>
+
+        <div class="why-card">
+
+            <div class="why-icon">🌍</div>
+
+            <h3>Global Exposure</h3>
+
+            <p>
+                Workshops, internships and international collaboration
+                opportunities.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
         <!--courses-->
-        <section id="courses">
-            <h2>Our Courses</h2>
-            <div class="course-container">
-                <div class="card">
-                    <h3>BCA</h3>
-                    <p>Bachelor of Computer Applications</p>
-            </div>
-            <div class="card">
-                <h3>B.Sc IT</h3>
-                <p>Information Technology specialization</p>
-            </div>
-            <div class="card">
+        <section id="courses" class="reveal">
+
+    <h2>Our Courses</h2>
+
+    <p class="course-subtitle">
+        Explore our industry-oriented programs designed to prepare students
+        for successful careers.
+    </p>
+
+    <div class="course-container">
+
+        <div class="card">
+
+            <div class="course-icon">💻</div>
+
+            <h3>BCA</h3>
+
+            <p>Bachelor of Computer Applications</p>
+
+            <ul>
+                <li>🕒 3 Years</li>
+                <li>👨‍🎓 120 Seats</li>
+                <li>📚 Practical Learning</li>
+            </ul>
+
+            <a href="#" class="course-btn">Learn More</a>
+
+        </div>
+
+        <div class="card">
+
+            <div class="course-icon">💼</div>
+
             <h3>BBA</h3>
-            <p>Business Administration course</p>
-            </div>
-            <div class="card">
-                <h3>MCA</h3>
-                <p>Master in Computer Applications</p>
-            </div>
-            <div class="card">
-                <h3>B.Com</h3>
-                <p>Commerce and Accounting Studies</p>
-            </div>
-            <div class="card">
-                <h3>BA</h3>
-                <p>Arts amd Humanities programs</p>
-            </div>
-            </div>
-        </section>
+
+            <p>Bachelor of Business Administration</p>
+
+            <ul>
+                <li>🕒 3 Years</li>
+                <li>👨‍🎓 100 Seats</li>
+                <li>📈 Industry Exposure</li>
+            </ul>
+
+            <a href="#" class="course-btn">Learn More</a>
+
+        </div>
+
+        <div class="card">
+
+            <div class="course-icon">🧪</div>
+
+            <h3>B.Sc IT</h3>
+
+            <p>Information Technology</p>
+
+            <ul>
+                <li>🕒 3 Years</li>
+                <li>👨‍🎓 90 Seats</li>
+                <li>💻 Modern Labs</li>
+            </ul>
+
+            <a href="#" class="course-btn">Learn More</a>
+
+        </div>
+
+    </div>
+
+</section>
         <!--Faculty-->
-        <section id="faculty">
-            <h2>Our Faculty</h2>
-            <div class="faculty-container">
-                <div class="faculty-card">
-                    <img src="GC college.jpg">
-                    <h3>Dr.Niranjan Roy</h3>
-                    <p>Professor of Computer Science</p>
-                </div>
-                <div class="faculty-card">
-                    <img src="GC college.jpg">
-                    <h3> Dr.Sanjib Bhattacharjee</h3>
-                    <p>Professor of Commerce</p>
-                </div>
-                <div class="faculty-card">
-                    <img src="GC college.jpg">
-                    <h3>Mrs.Jayee nath</h3>
-                    <p>Professor of Mathematics</p>
-                </div>
-            </div>
+        <section id="faculty" class="reveal">
+            <h2>Meet Our Faculty</h2>
+
+<p class="faculty-subtitle">
+    Learn from experienced educators dedicated to academic excellence.
+</p>
+
+<div class="faculty-container">
+
+    <div class="faculty-card">
+
+        <img src="GC college.jpg" alt="Professor">
+
+        <h3>Dr. Niranjan Roy</h3>
+
+        <span>Professor of Computer Science</span>
+
+        <p>
+            20+ years of experience in Artificial Intelligence,
+            Software Engineering and Research.
+        </p>
+
+        <div class="faculty-social">
+
+            <a href="#">📧</a>
+            <a href="#">🌐</a>
+            <a href="#">💼</a>
+
+        </div>
+
+    </div>
+
+    <div class="faculty-card">
+
+        <img src="GC college.jpg" alt="Professor">
+
+        <h3>Dr. Sanjib Bhattacharjee</h3>
+
+        <span>Professor of Commerce</span>
+
+        <p>
+            Specialist in Finance, Accounting and Business
+            Management.
+        </p>
+
+        <div class="faculty-social">
+
+            <a href="#">📧</a>
+            <a href="#">🌐</a>
+            <a href="#">💼</a>
+
+        </div>
+
+    </div>
+
+    <div class="faculty-card">
+
+        <img src="GC college.jpg" alt="Professor">
+
+        <h3>Mrs. Jayee Nath</h3>
+
+        <span>Professor of Mathematics</span>
+
+        <p>
+            Passionate educator helping students master
+            mathematics through practical learning.
+        </p>
+
+        <div class="faculty-social">
+
+            <a href="#">📧</a>
+            <a href="#">🌐</a>
+            <a href="#">💼</a>
+
+        </div>
+
+    </div>
+
+</div>
         </section>
         <!--Gallery-->
-        <section id="gallery">
-            <h2>Campus Gallery</h2>
-            <div class="gallery-container">
-                <img src="GC college.jpg">
-                <img src="GC university.jpg">
-                <img src="GC uni.jpg">
+        <section id="gallery" class="reveal">
+
+    <h2>Campus Gallery</h2>
+
+    <p class="gallery-subtitle">
+        Discover our vibrant campus, modern facilities and student life.
+    </p>
+
+    <div class="gallery-container">
+
+        <div class="gallery-item">
+            <img src="GC college.jpg" alt="Campus">
+            <div class="gallery-overlay">
+                <h3>Main Campus</h3>
             </div>
-        </section>
+        </div>
+
+        <div class="gallery-item">
+            <img src="GC university.jpg" alt="Library">
+            <div class="gallery-overlay">
+                <h3>Central Library</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="GC uni.jpg" alt="Events">
+            <div class="gallery-overlay">
+                <h3>Student Events</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="GC college.jpg" alt="Sports">
+            <div class="gallery-overlay">
+                <h3>Sports Complex</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="GC university.jpg" alt="Labs">
+            <div class="gallery-overlay">
+                <h3>Modern Labs</h3>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="GC uni.jpg" alt="Hostel">
+            <div class="gallery-overlay">
+                <h3>Student Hostel</h3>
+            </div>
+        </div>
+
+    </div>
+
+</section>
         <!--Testimonials-->
-        <section class="testimonials">
-            <h2>Student Testimonials</h2>
-            <div class="testimonial-box">
-                <p id="testimonialText">
-                    "Gurucharan University has transformed my career"
-                </p>
-            </div>
-        </section>
+       <section class="testimonials reveal">
+
+    <h2>What Our Students Say</h2>
+
+    <p class="testimonial-subtitle">
+        Hear from students who have experienced excellence at Gurucharan University.
+    </p>
+
+    <div class="testimonial-container">
+
+        <div class="testimonial-card">
+
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+
+            <p>
+                "The faculty are extremely supportive and the campus environment
+                helped me grow both academically and personally."
+            </p>
+
+            <img src="GC college.jpg" alt="Student">
+
+            <h3>Rahul Das</h3>
+
+            <span>BCA Graduate</span>
+
+        </div>
+
+        <div class="testimonial-card">
+
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+
+            <p>
+                "The placement cell provided excellent guidance and I secured
+                my first job before graduation."
+            </p>
+
+            <img src="GC college.jpg" alt="Student">
+
+            <h3>Priya Sharma</h3>
+
+            <span>BBA Student</span>
+
+        </div>
+
+        <div class="testimonial-card">
+
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+
+            <p>
+                "Modern labs, experienced professors and a vibrant campus made
+                my university life unforgettable."
+            </p>
+
+            <img src="GC college.jpg" alt="Student">
+
+            <h3>Aman Roy</h3>
+
+            <span>B.Sc IT</span>
+
+        </div>
+
+    </div>
+
+</section>
         <!--Contact-->
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <form id="contactForm">
-                <input type="text"placeholder="Enter Name"id="name">
-                <input type="email"placeholder="Enter Email"id="email">
-                <textarea placeholder="Message"id="message"></textarea>
-                <button type="submit">Submit</button>
-            </form>
-        </section>
+        <section id="contact" class="reveal">
+
+    <h2>Get In Touch</h2>
+
+    <p class="contact-subtitle">
+        We'd love to hear from you. Reach out for admissions, inquiries, or campus visits.
+    </p>
+
+    <div class="contact-container">
+
+        <div class="contact-info">
+
+            <div class="info-box">
+                <h3>📍 Address</h3>
+                <p>Silchar, Assam, India</p>
+            </div>
+
+            <div class="info-box">
+                <h3>📞 Phone</h3>
+                <p>+91 98765 43210</p>
+            </div>
+
+            <div class="info-box">
+                <h3>✉ Email</h3>
+                <p>info@guruniversity.edu.in</p>
+            </div>
+
+            <div class="info-box">
+                <h3>🕒 Office Hours</h3>
+                <p>Monday - Saturday<br>9:00 AM - 5:00 PM</p>
+            </div>
+
+        </div>
+
+        <form id="contactForm">
+
+            <input type="text" placeholder="Full Name">
+
+            <input type="email" placeholder="Email Address">
+
+            <input type="text" placeholder="Subject">
+
+            <textarea rows="6" placeholder="Write your message..."></textarea>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+
+    </div>
+
+</section>
         <!--footer-->
         <footer>
-            <p>&copy;2026 Gurucharan University|All Rights Reserved</p>
-        </footer>
-        <script src="script.js"></script>
+
+    <div class="footer-container">
+
+        <div class="footer-col">
+
+            <h2>🎓 Gurucharan University</h2>
+
+            <p>
+                Empowering students through excellence in education,
+                innovation and research.
+            </p>
+
+        </div>
+
+        <div class="footer-col">
+
+            <h3>Quick Links</h3>
+
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#courses">Courses</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+        <div class="footer-col">
+
+            <h3>Programs</h3>
+
+            <a href="#">BCA</a>
+            <a href="#">BBA</a>
+            <a href="#">B.Sc IT</a>
+            <a href="#">MCA</a>
+
+        </div>
+
+        <div class="footer-col">
+
+            <h3>Contact</h3>
+
+            <p>📍 Silchar, Assam</p>
+
+            <p>☎ +91 9876543210</p>
+
+            <p>✉ info@guruniversity.edu</p>
+
+            <div class="footer-social">
+
+                <a href="#">🌐</a>
+
+                <a href="#">📘</a>
+
+                <a href="#">📷</a>
+
+                <a href="#">💼</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    <p class="copyright">
+
+        © 2026 Gurucharan University.
+        All Rights Reserved.
+
+    </p>
+
+</footer>
+        <script src="style.js"></script>
     </body>
 </html>
