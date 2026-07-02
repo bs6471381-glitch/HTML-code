@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web AI Final Project</title>
+    </head>
+    <body>
+        <header style="background-color: lightgreen;color: white; padding: 20px;">
+            <h1>Welcome to My Web AI Project</h1>
+        </header>
+        <h2>AI Tools</h2>
+        <ul>
+            <li>ChatGPT</li>
+            <li>Gemini</li>
+            <li>Copilot</li>
+        </ul>
+        <h2>AI Tools Table</h2>
+        <table border="1">
+            <tr>
+                <th>Tool</th>
+                <th>Use</th>
+            </tr>
+            <tr>
+                <td>ChatGPT</td>
+                <td>A conversational AI model developed by OpenAI.</td>
+            </tr>
+            <tr>
+                <td>Gemini</td>
+                <td>An AI tool for data analysis and visualization.</td>
+            </tr>
+            <tr>
+                <td>Copilot</td>
+                <td>An AI tool for code completion and assistance.</td>
+            </tr>
+            </table>
+            <h2>Ask AI</h2>
+            <input type="text" id="question" placeholder="Ask about an AI tool">
+            <button onclick="AskAI()">Ask</button>
+            <p id="answer"></p>
+            <script>
+                function AskAI() {
+                    var question = document.getElementById("question").value;
+                    document.getElementById("answer").innerHTML ="AI says:"+question;
+                }
+            </script>
+            <footer style="background-color:black; color: white; padding: 10px; text-align: center;">
+                <p>&copy; 2024 Bhaskar Saha. All rights reserved.</p>
+                </footer>
+    </body>
+</html>

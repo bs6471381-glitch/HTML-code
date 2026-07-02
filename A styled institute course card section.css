@@ -1,0 +1,13 @@
+body{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: #f4f4f4;
+margin: 0;
+padding: 20px;}
+h1{text-align: center;
+color: navy;
+margin-bottom: 40px;}
+.course-container{display: flex;justify-content: space-around;flex-wrap: wrap;}
+.card{width: 280px;background-color: white;padding: 20px;margin: 15px;border-radius: 10px;text-align: center;box-shadow: 0010px gray;}
+.card h2{color: darkblue;}
+.card p{color: #444;line-height: 1.6;}
+button:hover{background-color: royalblue;}
+.card:hover{transform: translateY(-10px);}

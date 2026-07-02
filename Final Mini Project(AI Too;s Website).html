@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web AI Project</title>
+    </head>
+    <body>
+        <h1>Welcome to My Web AI Project</h1>
+        <p>This project showcases various AI tools and their applications.</p>
+        <img src="ai.jpg" width="300" height="200" alt="AI Image">
+        <h2>AI Tools Featured:</h2>
+        <ul>
+            <li>ChatGPT</li>
+            <li>Gemini</li>
+            <li>Midjourney</li>
+        </ul>
+        <h2>Tools Table</h2>
+        <table border="1">
+            <tr>
+                <th>Tool</th>
+                <th>Use</th>
+            </tr>
+            <tr>
+                <td>ChatGPT</td>
+                <td>A conversational AI model developed by OpenAI.</td>
+            </tr>
+            <tr>
+                <td>Gemini</td>
+                <td>An AI tool for data analysis and visualization.</td>
+            </tr>
+            <tr>
+                <td>Midjourney</td>
+                <td>An AI tool for creative content generation.</td>
+            </tr>
+        </table>
+        <h2>Ask AI</h2>
+        <input type="text"id="question">
+        <button onclick="answer()">Ask</button>
+        <p id="response"></p>
+        <script>
+            function answer() {
+                var question = document.getElementById("question").value;
+                var response = "";
+                if (question.toLowerCase().includes("chatgpt")) {
+                    response = "ChatGPT is a conversational AI model developed by OpenAI.";
+                } else if (question.toLowerCase().includes("gemini")) {
+                    response = "Gemini is an AI tool for data analysis and visualization.";
+                } else if (question.toLowerCase().includes("midjourney")) {
+                    response = "Midjourney is an AI tool for creative content generation.";
+                } else {
+                    response = "Sorry, I don't have information on that tool.";
+                }
+                document.getElementById("response").innerText = response;
+            }
+    </script>
+    </body>
+    </html>
