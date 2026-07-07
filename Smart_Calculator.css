@@ -1,0 +1,5 @@
+body{font-family: Arial, sans-serif; background-color: #f0f0f0; margin: 0; padding: 0;}
+.calculator-container{width: 300px; margin: 50px auto; padding: 20px; background-color: #fff; box-shadow: 0 0 10px rgba(0,0,0,0.1);}
+input_display{width: 100%; height: 50px; font-size: 1.5rem; text-align: right; margin-bottom: 10px; padding: 5px;}
+button{width: 70px; height: 70px; font-size: 1.5rem; margin: 5px; cursor: pointer; background-color: #007BFF; color: #fff; border: none; border-radius: 5px;}
+h1{color:#333}
